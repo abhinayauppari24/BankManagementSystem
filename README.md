@@ -61,6 +61,7 @@ CREATE TABLE user (
 );
 select * from accounts;  
 select * from user;  
+```
 
 
 ## 6. Running the app

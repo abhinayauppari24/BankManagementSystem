@@ -1,3 +1,4 @@
 config/db.properties
 .vscode/
 lib/*.jar
+*.class

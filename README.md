@@ -41,7 +41,7 @@ MySQL server running (mysql -u root -p)
 MySQL Connector/J JAR (download from MySQL website)  
 VS Code with Extension Pack for Java  
 
-## sql  Create Tables
+## 6. Create Tables
 ```sql  
 CREATE DATABASE BankManagementSystem;  
 USE BankManagementSystem;  
@@ -64,7 +64,7 @@ select * from user;
 ```
 
 
-## 6. Running the app
+## 7. Running the app
 ### A) Command line (compile & run)  
 From project root:  
 Compile  

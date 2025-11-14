@@ -28,7 +28,6 @@ BankManagementSystem/
 │     ├─ DBConnection.java  
 │     ├─ User.java  
 │     ├─ Account.java  
-│     └─ ... other classes  
 ├─ config/  
 │  └─ db.properties         # NOT checked into git (contains DB credentials)  
 ├─ lib/  
@@ -40,24 +39,23 @@ BankManagementSystem/
 Java JDK installed (java -version, javac -version)  
 MySQL server running (mysql -u root -p)  
 MySQL Connector/J JAR (download from MySQL website)  
-(Optional) VS Code with Extension Pack for Java  
+VS Code with Extension Pack for Java  
 
 ## 6. Running the app
-A) Command line (compile & run)  
+# A) Command line (compile & run)  
 From project root:  
 Compile  
 javac -cp "lib/mysql-connector-j-<ver>.jar;src" src/BankManagementSystem/BankingApp.java  
 Run  
 java -cp "lib/mysql-connector-j-<ver>.jar;src" BankManagementSystem.BankingApp  
 
-B) Run inside VS Code (recommended)  
+# B) Run inside VS Code (recommended)  
 Ensure .vscode/settings.json contains:  
 {  
   "java.project.referencedLibraries": [  
     "lib/**/*.jar"  
   ]  
 }  
-
 Open BankManagementSystem folder in VS Code.    
 Open BankingApp.java and click the green Run button (or use Run/Debug).  
 

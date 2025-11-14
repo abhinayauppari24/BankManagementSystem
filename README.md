@@ -4,7 +4,7 @@ Simple console-based Bank Management System built with Java and MySQL.
 Supports user registration, login, account creation, deposit/withdraw, and basic transaction management.  
 
 ## 1. Project Summary
-This project demonstrates a simple banking application using JDBC for database access and follows a modular OOP design (Account, Customer, User, DBConnection, etc.). It is intended as a learning/demo project.  
+This project demonstrates a simple banking application using JDBC for database access and follows a modular OOP design (Account, Customer, User, DBConnection, etc.).   
 
 ## 2. Features
 User registration and login  

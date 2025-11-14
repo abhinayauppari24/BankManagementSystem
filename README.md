@@ -41,6 +41,28 @@ MySQL server running (mysql -u root -p)
 MySQL Connector/J JAR (download from MySQL website)  
 VS Code with Extension Pack for Java  
 
+## sql  Create Tables
+```sql  
+CREATE DATABASE BankManagementSystem;  
+USE BankManagementSystem;  
+
+CREATE TABLE accounts (  
+    account_number BIGINT NOT NULL PRIMARY KEY,  
+    full_name VARCHAR(255) NOT NULL,  
+    email VARCHAR(255) NOT NULL UNIQUE,  
+    balance DECIMAL(10,2) NOT NULL,  
+    security_pin CHAR(4) NOT NULL  
+);  
+
+CREATE TABLE user (  
+    full_name VARCHAR(255) NOT NULL,  
+    email VARCHAR(255) NOT NULL PRIMARY KEY,  
+    password VARCHAR(255) NOT NULL  
+);
+select * from accounts;  
+select * from user;  
+
+
 ## 6. Running the app
 ### A) Command line (compile & run)  
 From project root:  

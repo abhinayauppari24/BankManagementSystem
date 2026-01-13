@@ -64,24 +64,6 @@ select * from user;
 ```
 
 
-## 7. Running the app
-### A) Command line (compile & run)  
-From project root:  
-Compile  
-javac -cp "lib/mysql-connector-j-<ver>.jar;src" src/BankManagementSystem/BankingApp.java  
-Run  
-java -cp "lib/mysql-connector-j-<ver>.jar;src" BankManagementSystem.BankingApp  
-
-### B) Run inside VS Code (recommended)  
-Ensure .vscode/settings.json contains:  
-{  
-  "java.project.referencedLibraries": [  
-    "lib/**/*.jar"  
-  ]  
-}  
-Open BankManagementSystem folder in VS Code.    
-Open BankingApp.java and click the green Run button (or use Run/Debug).  
-
 
 
 
